@@ -2,8 +2,7 @@
 # -*- coding: utf-8 -*-
 """This module's docstring summary line.
 
-This is a multi-line docstring. Paragraphs are separated with blank lines.
-Lines conform to 79-column limit.
+This is a multi-line docstring. Paragraphs are separated with blank lines.Lines conform to 79-column limit.
 
 Module and packages names should be short, lower_case_with_underscores.
 Notice that this in not PEP8-cheatsheet.py
