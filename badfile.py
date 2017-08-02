@@ -15,9 +15,6 @@ See http://www.python.org/dev/peps/pep-0008/ for more PEP-8 details
 """
 
 
-import os  # STD lib imports first
-import sys  # alphabetical
-
 import some_third_party_lib  # 3rd party stuff next
 import some_third_party_other_lib  # alphabetical
 
@@ -26,6 +23,9 @@ import more_local_stuff
 import dont_import_two, modules_in_one_line  # IMPORTANT!
 from pyflakes_cannot_handle import *  # and there are other reasons it should be avoided # noqa
 # Using # noqa in the line above avoids flake8 warnings about line length!
+import os  # STD lib imports first
+import sys  # alphabetical
+
 
 
 _a_global_var = 2  # so it won't get imported by 'from foo import *'
