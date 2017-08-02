@@ -28,7 +28,7 @@ import sys  # alphabetical
 
 
 
-_a_global_var = 2  # so it won't get imported by 'from foo import *'
+_a_global_var = 2  # so it won't get imported by 'from foo import *'                                          
 _b_global_var = 3
 
 A_CONSTANT = 'ugh.'
